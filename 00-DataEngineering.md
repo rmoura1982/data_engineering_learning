@@ -1,6 +1,4 @@
-# Data Engineering: Core Concepts
-
----
+# Data Engineering - Core Concepts
 
 ## 1. Processing
 - **1.1.** ETL (Extract, Transform, Load)  
@@ -8,7 +6,7 @@
 
 ---
 
-## 2. Modeling
+## 2. Modeling & Architecture
 - **2.1.** Star Schema  
 - **2.2.** Snowflake Schema  
 - **2.3.** Medallion Architecture
@@ -35,7 +33,7 @@
 ## 5. Governance
 - **5.1.** Data Quality  
 - **5.2.** Data Security & Privacy  
-- **5.3.** Data & Code Versioning
+- **5.3.** Code Versioning
 
 ---
 
@@ -53,7 +51,18 @@
 
 ---
 
-## 8. Data Discovery & Metadata Management
-- **8.1.** Data Catalog  
-- **8.2.** Data Lineage  
-- **8.3.** Business Glossary
+## 8. Cloud Infrastructure
+- **8.1** Cloud Azure
+
+---
+
+# Data Engineering - Tools
+
+## 9. Python
+## 10. SQL
+## 11. Spark
+## 12. Databricks
+## 13. Data Factory
+## 14. Github
+## 15. Azure DevOps
+## 16. Airflow

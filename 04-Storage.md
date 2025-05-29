@@ -1,7 +1,5 @@
 # 4. Storage
 
----
-
 Armazenamento de dados refere-se à forma como os dados são guardados e organizados em repositórios, permitindo acesso eficiente, seguro e escalável para diferentes usos analíticos ou operacionais.
 
 ---

@@ -1,7 +1,5 @@
 # 1. Processing
 
----
-
 Processamento de dados é o conjunto de operações realizadas para transformar dados brutos em informações úteis, por meio de extração, transformação e carregamento, permitindo seu uso em análises, relatórios e aplicações.
 
 ---

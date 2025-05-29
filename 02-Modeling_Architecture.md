@@ -1,7 +1,5 @@
 # 2. Modeling
 
----
-
 Modelagem de dados é o processo de organizar e estruturar os dados de forma lógica, utilizando esquemas ou a arquitetura em camadas, para facilitar o desempenho das consultas, a consistência dos dados e a tomada de decisão.
 
 ---
@@ -51,6 +49,8 @@ Modelo de dados em camadas que organiza o processamento e a qualidade dos dados 
 - **Bronze**: dados brutos, tal como foram coletados.
 - **Silver**: dados limpos e estruturados.
 - **Gold**: dados prontos para análises e relatórios.
+
+![Medallion Architecture](image/medallion.png)
 
 **✅ Prós:**
 - Facilita o controle de qualidade dos dados por etapas.
