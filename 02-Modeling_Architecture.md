@@ -46,11 +46,13 @@ Modelo em que uma única tabela fato central se conecta diretamente a várias ta
 
 Modelo de dados em camadas que organiza o processamento e a qualidade dos dados em três níveis:
 
-- **Bronze**: dados brutos, tal como foram coletados.
-- **Silver**: dados limpos e estruturados.
-- **Gold**: dados prontos para análises e relatórios.
+- **Bronze/Raw**: dados brutos, tal como foram coletados.
+- **Silver/Trusted**: dados limpos e estruturados.
+- **Gold/Refined**: dados prontos para análises e relatórios.
 
 ![Medallion Architecture](image/medallion.png)
+
+- **Sandbox**: Ambiente para testes e exploração por analistas.
 
 **✅ Prós:**
 - Facilita o controle de qualidade dos dados por etapas.
