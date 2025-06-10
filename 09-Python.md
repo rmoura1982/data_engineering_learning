@@ -4,11 +4,11 @@ Python é uma linguagem de programação de alto nível, interpretada, de tipage
 
 #### Objetivos
 
-- Escrever códigos legíveis e de fácil manutenção  
-- Automatizar tarefas e processos repetitivos  
-- Manipular, transformar e analisar dados  
-- Desenvolver scripts, APIs e aplicações completas  
-- Integrar com bibliotecas e ferramentas de ciência de dados e engenharia
+- Escrever códigos legíveis e de fácil manutenção.  
+- Automatizar tarefas e processos repetitivos.  
+- Manipular, transformar e analisar dados.  
+- Desenvolver scripts, APIs e aplicações completas.  
+- Integrar com bibliotecas e ferramentas de ciência de dados e engenharia.
 
 #### Tipos de Dados (principais)
 - `int`: número inteiro
