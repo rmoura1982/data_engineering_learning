@@ -17,14 +17,65 @@ Apache Spark é uma ferramenta que ajuda a processar grandes volumes de dados de
 - `StringType`: texto  
 - `TimestampType`: data e hora  
 
-![Tipos de Dados](image/data_type.png)
+![Tipos de Dados](image/data_type_spark.png)
 
 #### Estruturas de Dados
-- `DataFrame`: estrutura principal do Spark, equivalente a uma tabela  
-- `RDD` (Resilient Distributed Dataset): coleção distribuída de objetos, usada em operações de baixo nível  
-- `Row`: representa uma linha de dados dentro de um DataFrame  
+- `RDD` (Resilient Distributed Dataset): Estrutura padrão do Spark. Manipula grandes volumes de dados, dividindo-os em partes menores para serem processados paralelamente (**_distribuido_**). Oferece mais controle, mas exige mais conhecimento técnico.
 
-![Estruturas de Dados](image/data_structure.png)
+```python
+# Creating an RDD
+data = sc.parallelize([("Alice", 28), ("Bob", 23), ("Cathy", 25)])
+
+# Filtering RDD
+filtered_rdd = data.filter(lambda x: x[1] > 24)
+print(filtered_rdd.collect())  
+
+# Output: [('Alice', 28), ('Cathy', 25)]
+```
+
+- `DataFrame`: Estrutura de dados semelhante a uma tabela de banco de dados relacional, com linhas e colunas. Permite filtrar, ordenar e analisar grandes quantidades de informações de maneira fácil e rápida.
+
+```python
+from pyspark.sql import SparkSession
+
+# Initialize SparkSession
+spark = SparkSession.builder.appName("DataFramesExample").getOrCreate()
+
+# Creating a DataFrame
+data = [("Alice", 28), ("Bob", 23), ("Cathy", 25)]
+columns = ["Name", "Age"]
+df = spark.createDataFrame(data, columns)
+
+# Filtering DataFrame
+filtered_df = df.filter(df.Age > 24)
+filtered_df.show()
+```
+
+- `Dataset`: Estrutura de dados que combina a praticidade do DataFrame com o controle do RDD. Organiza os dados em colunas, com mais segurança ao lidar com os tipos de informação. Porém, está disponível apenas em linguagens como Scala e Java, não funciona em Python.
+
+```python
+from pyspark.sql import SparkSession
+
+# Initialize SparkSession
+spark = SparkSession.builder.appName("UnifiedWorkflow").getOrCreate()
+
+# Step 1: Create an RDD
+rdd = spark.sparkContext.parallelize([("Alice", 28), ("Bob", 23), ("Cathy", 25)])
+
+# Step 2: Convert RDD to DataFrame
+columns = ["Name", "Age"]
+df = rdd.toDF(columns)
+
+# Step 3: Perform DataFrame operation
+filtered_df = df.filter(df.Age > 24)
+
+# Step 4: Convert DataFrame to Dataset (em Scala/Java)
+# Em Python, DataFrame já funciona como Dataset (estrutura unificada)
+
+filtered_df.show()
+```
+
+### CORRIGIR!!!
 
 #### Transformações e Ações
 - **Transformações** (lazy): `select`, `filter`, `withColumn`, `join`  
