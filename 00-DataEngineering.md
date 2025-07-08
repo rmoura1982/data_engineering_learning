@@ -63,6 +63,14 @@
 ## 11. Spark
 ## 12. Databricks
 ## 13. Data Factory
-## 14. Github
-## 15. Azure DevOps
-## 16. Airflow
+## 14. Git
+- **14.1.** Azure DevOps
+- **14.2.** GitHub
+
+---
+
+## 15. Metodologias Ágeis
+- **15.1** Scrum
+- **15.2** Kanban
+
+---

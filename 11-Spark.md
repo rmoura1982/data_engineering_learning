@@ -122,3 +122,7 @@ filtered_df.show()
 - `pyspark.streaming`: processamento em tempo real  
 
 ![Bibliotecas](image/libs.png)
+
+---
+
+[🔗 Documentação Apache Spark (en)](https://spark.apache.org/docs/latest/)

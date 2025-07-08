@@ -14,16 +14,6 @@ O Delta Lake é uma camada de armazenamento que pode ser usada para salvar os da
 
 ![Databricks](image/databricks.png)
 
-**✅ Prós:**
-- Escalável para Big Data e processamento em lote ou streaming.
-- Suporte a notebooks colaborativos (Python, SQL, etc.).
-- Time travel e controle transacional com Delta Lake.
-
-**❌ Contras:**
-- Custo mais alto em uso contínuo.
-- Requer conhecimento técnico (Spark, PySpark).
-- Exige configuração de clusters.
-
 ---
 
 - **12.2.** Governança com Unity Catalog
@@ -32,30 +22,6 @@ O Unity Catalog é responsável pela governança dos dados, organizando e contro
 
 Os dados em si são sempre armazenados fisicamente em um data lake.
 
-# Prós e Contras
-
-**✅ Prós:**  
-- Plataforma unificada.  
-- Processamento distribuído rápido com Apache Spark.  
-- Governança centralizada e controle de acesso com Unity Catalog.
-
-**❌ Contras:**  
-- Curva de aprendizado para dominar todas as funcionalidades.  
-- Dependência de configuração correta do ambiente e metastore.  
-- Custo pode ser elevado para grandes clusters e volumes.
-
-
 ---
 
 [🔗 Link – Databricks](https://www.databricks.com/product/databricks-platform)
-
----
-
-
-
-
-
----
-
-
-

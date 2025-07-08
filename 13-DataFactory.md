@@ -26,15 +26,6 @@ No Data Factory, criam-se pipelines que extraem dados de diferentes fontes (banc
 
 O Data Factory pode orquestrar notebooks do Databricks dentro dos pipelines, combinando automação com processamento avançado.
 
-**✅ Prós:**
-- Integração direta com o Databricks.
-- Automatiza fluxos de ponta a ponta.
-- Controla execuções com logs e triggers.
-
-**❌ Contras:**
-- Depende de autenticação e integração prévias.
-- Menor visibilidade em tempo real do que ocorre nos notebooks.
-
 ---
 
 [🔗 Link – Azure Data Factory](https://learn.microsoft.com/pt-br/azure/data-factory/introduction)

@@ -220,3 +220,7 @@ WHERE clientes.idade > media_idade.idade_media;
 - Sempre usar `WHERE` ao atualizar ou deletar registros  
 - Usar `LIMIT` para limitar resultados em testes  
 - Criar `índices` para melhorar performance em grandes volumes de dados  
+
+---
+
+[🔗 Documentação SQL (W3Schools - pt-br)](https://www.w3schools.com/sql/sql_intro.asp)

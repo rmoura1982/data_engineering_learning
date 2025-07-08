@@ -1,0 +1,60 @@
+# 14. Git
+
+É um sistema de controle de versões distribuído. Ou seja, ajuda a salvar e acompanhar o histórico de alterações em arquivos. É muito usado para rastrear mudanças em códigos, trabalhar em equipe e manter versões seguras dos projetos.
+O Git é comumente usado com plataformas como GitHub, GitLab, Azure DevOps ou Bitbucket para facilitar o trabalho em equipe, revisão de código e atualização automática *(deploy contínuo)* de aplicações em produção.
+
+---
+
+- **Conceito de Versionamento** 
+
+O Git registra cada modificação no repositório local. Essas mudanças podem depois ser enviadas para um repositório remoto. Com isso, é possível rastrear, reverter ou analisar o histórico completo de alterações no projeto.
+
+![Git](image/git.png)
+
+---
+
+- **14.1.** Azure DevOps
+
+Plataforma da Microsoft que reúne ferramentas para o desenvolvimento e a entrega de software. Entre as principais funcionalidades, oferece o `Azure Repos`, que é um sistema de controle de versão baseado em Git. Permite realizar deploys e automatizar testes e builds com base no código versionado por meio do `Azure Pipelines`. Conta também com o `Azure Boards`, que ajuda a organizar tarefas, acompanhar bugs, entregas e o andamento do projeto. O `Azure Test Plans` que permite o planejamento e a execução de testes manuais e automatizados. Já o `Azure Artifacts` é usado para armazenar e compartilhar pacotes como npm, NuGet, entre outros.
+
+---
+
+## Prós e Contras
+
+**✅ Prós:**  
+- Integração completa com outras ferramentas Microsoft.  
+- Plataforma unificada para todo o ciclo de vida do desenvolvimento.  
+- Automatização de processos com pipelines flexíveis.
+
+**❌ Contras:**  
+- Pode ser complexo para quem está começando.  
+- Algumas funcionalidades avançadas exigem planos pagos.  
+- Curva de aprendizado para integração com serviços externos.
+
+---
+
+- **14.2.** GitHub
+
+Plataforma muito usada para guardar e organizar projetos de código. Ajuda as pessoas a trabalharem juntas, permitindo revisar e sugerir mudanças no código. Também automatiza tarefas para facilitar o trabalho e ajuda a organizar o andamento dos projetos e seus documentos.
+
+---
+
+## Prós e Contras
+
+**✅ Prós:**  
+- Ampla comunidade e grande quantidade de projetos públicos.  
+- Ferramentas integradas para revisão de código e automação (GitHub Actions).  
+- Fácil integração com diversas outras ferramentas e serviços.
+
+**❌ Contras:**  
+- Algumas funcionalidades avançadas estão disponíveis apenas em planos pagos.  
+- Privacidade limitada em repositórios gratuitos (embora isso tenha melhorado).  
+- Pode ser complexo para iniciantes na primeira vez.
+
+---
+
+[🔗 Link – Git Documentation](https://git-scm.com/doc)
+
+[🔗 Link – Azure DevOps](https://azure.microsoft.com/products/devops/)
+
+[🔗 Documentação do GitHub](https://docs.github.com/)

@@ -74,3 +74,7 @@ Serve para inicializar os dados da classe.
 - `os`: trabalhar com arquivos e pastas do computador  
 - `datetime`: trabalha com datas e horários  
 - `SQLAlchemy`: criar e gerenciar conexões e consultas a bancos de dados usando código Python  
+
+---
+
+[🔗 Documentação do Python (pt-br)](https://docs.python.org/pt-br/3/)
